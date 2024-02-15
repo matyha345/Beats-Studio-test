@@ -1,0 +1,21 @@
+
+:root{
+    --main-fonts: 'Gilroy', sans-serif ;
+    --title-fonts: 'Neuzeit Grotesk', sans-serif;
+    --bgMain: #1E1E1E;
+    --bgBlack: #000;
+    --bgWhite: #fff;
+    --textColorLink: #ffffffb3;
+    --textWhite: #fff;
+    --textTundora: #4E4E4E;
+    --colorNumberPrise: #ffffffcc;
+    --codGray: #0B0B0B;
+    --godGray: #282828;
+    --CodGrayCC: #282828cc;
+    --brinkpink: #F65D81;
+    --alabaster: #F7F7F7;
+    --z-index100: 100;
+
+    --swiper-pagination-bullet-inactive-opacity: 1;
+    --swiper-pagination-bottom:11px;
+}

@@ -1,0 +1,82 @@
+@font-face {
+	font-family: 'Gilroy', sans-serif;
+	src: url('../../public/fonts/gilroy/Gilroy-Regular.eot');
+	src:
+		local('fonts/gilroy/Gilroy Regular'),
+		local('fonts/gilroy/Gilroy-Regular'),
+		url('../../public/fonts/gilroy/Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../../public/fonts/gilroy/Gilroy-Regular.woff') format('woff'),
+		url('../../public/fonts/gilroy/Gilroy-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Gilroy', sans-serif;
+	src: url('../../public/fonts/gilroy/Gilroy-Medium.eot');
+	src:
+		local('Gilroy Medium'),
+		local('Gilroy-Medium'),
+		url('../../public/fonts/gilroy/Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
+		url('../../public/fonts/gilroy/Gilroy-Medium.woff') format('woff'),
+		url('../../public/fonts/gilroy/Gilroy-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gilroy', sans-serif;
+	src: url('../../public/fonts/gilroy/Gilroy-SemiBold.eot');
+	src:
+		local('Gilroy SemiBold'),
+		local('Gilroy-SemiBold'),
+		url('../../public/fonts/gilroy/Gilroy-SemiBold.eot?#iefix') format('embedded-opentype'),
+		url('../../public/fonts/gilroy/Gilroy-SemiBold.woff') format('woff'),
+		url('../../public/fonts/gilroy/Gilroy-SemiBold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+/* ================================= */
+/* ================================= */
+
+@font-face {
+	font-family: 'Neuzeit Grotesk', sans-serif;
+	src: url('../../public/fonts/neuzeit/NeuzeitGroCon-Bla.eot');
+	src:
+		local('Neuzeit Grotesk Condensed Black'),
+		local('NeuzeitGroCon-Bla'),
+		url('../../public/fonts/neuzeit/NeuzeitGroCon-Bla.eot?#iefix') format('embedded-opentype'),
+		url('../../public/fonts/neuzeit/NeuzeitGroCon-Bla.woff2') format('woff2'),
+		url('../../public/fonts/neuzeit/NeuzeitGroCon-Bla.woff') format('woff'),
+		url('../../public/fonts/neuzeit/NeuzeitGroCon-Bla.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Neuzeit Grotesk', sans-serif;
+	src: url('../fonts/neuzeitNeuzeitGroExt-Bla.eot');
+	src:
+		local('Neuzeit Grotesk Extra-condensed Black'),
+		local('NeuzeitGroExt-Bla'),
+		url('../../public/fonts/neuzeit/NeuzeitGroExt-Bla.eot?#iefix') format('embedded-opentype'),
+		url('../../public/fonts/neuzeit/NeuzeitGroExt-Bla.woff2') format('woff2'),
+		url('../../public/fonts/neuzeit/NeuzeitGroExt-Bla.woff') format('woff'),
+		url('../../public/fonts/neuzeit/NeuzeitGroExt-Bla.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Neuzeit Grotesk', sans-serif;
+	src: url('../../public/fonts/neuzeit/NeuzeitGro-Bol.eot');
+	src:
+		local('Neuzeit Grotesk Bold'),
+		local('NeuzeitGro-Bol'),
+		url('../../public/fonts/neuzeit/NeuzeitGro-Bol.eot?#iefix') format('embedded-opentype'),
+		url('../../public/fonts/neuzeit/NeuzeitGro-Bol.woff2') format('woff2'),
+		url('../../public/fonts/neuzeit/NeuzeitGro-Bol.woff') format('woff'),
+		url('../../public/fonts/neuzeit/NeuzeitGro-Bol.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}

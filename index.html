@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="public/images/svg/logo.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/styles/_fonts.css">
+    <link rel="stylesheet" href="assets/styles/_reset.css">
+    <link rel="stylesheet" href="assets/styles/_variables.css">
+    <link rel="stylesheet" href="assets/styles/blocks/_header.css">
+    <link rel="stylesheet" href="assets/styles/blocks/_information.css">
+    <link rel="stylesheet" href="assets/styles/main.css">
+    <title>Beats-Studio</title>
+</head>
+
+<body class="body">
+    <div class="wrapper">
+        <div class="notification">
+            <p class="notification__text">
+                Flash Sale in 'Country': Free 2-3 Day express delivery!
+            </p>
+        </div>
+
+        <div id="header"></div>
+
+        <div class="preview">
+            <div class="content">
+                <div class="preview__body">
+                    <h1 class="preview__title">
+                        Beats Studio Buds <span>+</span>
+                    </h1>
+                    <p class="preview__text">Powerful Sound. Perfect Fit</p>
+                    <div class="preview__prise">
+                        <p class="preview__prise-number">£150</p>
+                        <p class="preview__prise-number">£5</p>
+                    </div>
+                </div>
+
+                <div class="preview__information-icons">
+                    <!-- Элементы будут заполнены с помощью map в JavaScript -->
+                </div>
+            </div>
+        </div>
+
+        <div class="reviews">
+            <p class="reviews-text">See our 437 reviews on</p>
+            <img src='./public/images/svg/reviews-icons.svg' alt='Reviews Image' />
+        </div>
+        <div class="swiper__beats">
+
+            <div class="swiper" id="mainSwiper">
+                <div class="swiper-wrapper" id="mainSwiperResults">
+                    <!-- Элементы будут заполнены с помощью map в JavaScript -->
+                </div>
+            </div>
+
+            <div class="swiper__controller">
+                <div class="swiper__controller-next">
+                    <img src='./public/images/svg/next.svg' alt='Next Icons' />
+                </div>
+                <div class="swiper__controller-prev">
+                    <img src='./public/images/svg/prev.svg' alt='Prev Icons' />
+                </div>
+            </div>
+
+            <div class="swiper__beats-bottom">
+                <!-- Элементы будут заполнены с помощью map в JavaScript -->
+            </div>
+
+            <h2 class="swiper__title">
+                Beats Studio Buds <span>+</span>
+            </h2>
+
+            <p class="swiper__text">True Wireless Noise Cancelling Earbuds</p>
+
+            <div class="swiper__prise">
+                <p class="swiper__prise-number">£150</p>
+                <p class="swiper__prise-number">£3</p>
+
+                <div class="swiper__prise-discount">
+                    <span>90% OFF</span>
+                </div>
+            </div>
+
+            <div class="swiper__color-handler">
+                <h3 class="swiper__color-title">Color:</h3>
+                <div class="swiper__color-handler--btns">
+                    <div data-color="silver" class="swiper__color-handler-inner active-swiper">
+                        <span class="swiper__color-btn spun-pearl"></span>
+                    </div>
+                    <div data-color="black" class="swiper__color-handler-inner">
+                        <span class="swiper__color-btn mine-shaft"></span>
+                    </div>
+                    <div data-color="pink" class="swiper__color-handler-inner">
+                        <span class="swiper__color-btn sea-pink"></span>
+                    </div>
+                    <div data-color="white" class="swiper__color-handler-inner">
+                        <span class="swiper__color-btn pearl-bush"></span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="button">
+            <button class="button__inner">BUY NOW</button>
+        </div>
+
+        <div class="alert__time">
+            <div class="alert__time-left">
+                <img src='./public/images/svg/time.svg' alt='Time image' />
+                <p class="alert__time-text">Hurry up! Sale Ends in</p>
+            </div>
+
+            <div id="alert-timeChange" class="alert__time-change">
+                <span id="hours">03</span> h
+                <p>:</p>
+                <span id="minutes">59</span> m
+                <p>:</p>
+                <span id="seconds">37</span>
+                <span id="tenths">7</span> s
+            </div>
+        </div>
+
+
+        <div class="pay__icons">
+            <div class="pay__icons-inner">
+                <img src="./public/images/svg/visa.svg" alt="Pay Cart">
+            </div>
+            <div class="pay__icons-inner">
+                <img src="./public/images/svg/master-cart.svg" alt="Pay Cart">
+            </div>
+            <div class="pay__icons-inner">
+                <img src="./public/images/svg/samsung-pay.svg" alt="Pay Cart">
+            </div>
+            <div class="pay__icons-inner">
+                <img src="./public/images/svg/apple-pay.svg" alt="Pay Cart">
+            </div>
+            <div class="pay__icons-inner">
+                <img src="./public/images/svg/google-pay.svg" alt="Pay Cart">
+            </div>
+        </div>
+
+        <div class="information__size">
+            <div id="information">
+                <!-- Элементы находится в components/_information.html, заполнены с помощью JavaScript -->
+            </div>
+        </div>
+
+        <div class="accordion" id="accordion-main">
+            <!-- Элементы будут заполнены с помощью map в JavaScript -->
+        </div>
+
+        <div class="swiper__reviews">
+            <h2 class="swiper__reviews-title">What the Experts are Saying</h2>
+            <div class="swiper" id="mainReviews">
+                <div class="swiper-wrapper" id="mainSwiperReviews">
+                    <!-- Элементы будут заполнены с помощью map в JavaScript -->
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <div style="opacity: 0;">
+            opacity
+        </div>
+    </div>
+</body>
+
+<!-- JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="./data/dataPreviewIcons.js"></script>
+<script src="./data/dataImageSwiper.js"></script>
+<script src="./data/dataSectionsAccordion.js"></script>
+<script src="./data/dataInformationReviews.js"></script>
+<script src="./main.js"></script>
+
+</html>
